@@ -15,7 +15,7 @@ function draw() {//runs in a loop
 fill ('turquoise'); //fills shape with RGB color
 strokeWeight (1); //assigns stroke weight
 
-var num = 2; //number of sides in the array
+var num = 10; //number of sides in the array
 var sideLen = windowWidth/num; //side length variable
 
 translate (-100,-100);// translation creates a bleed effect
