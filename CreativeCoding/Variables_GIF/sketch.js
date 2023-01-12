@@ -3,7 +3,7 @@ let img;
 
 
 function preload (){
-  img = loadImage('Assets/Graphic.png');
+  img = loadImage('Assets/Graphic1.png');
 }
 
 function setup() {//runs once
@@ -11,7 +11,7 @@ function setup() {//runs once
 }
 
 function draw() {//runs in a loop
-  background (255, 255, 0); //background color
+  background (0, 0, 150); //background color
 fill ('turquoise'); //fills shape with RGB color
 strokeWeight (1); //assigns stroke weight
 
