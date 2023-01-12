@@ -2,12 +2,12 @@
 let img;
 
 function preload (){
-  img = loadImage('Assets/Graphic.png');
+  img = loadImage('Assets/Graphic1.png');
 }
 
 function setup() {//runs once
  createCanvas (windowWidth, windowWidth); // creates a canvas 720x720 pixels
- //background (255, 255, 0); background color
+ background (173, 216, 230); background color
 }
 
 function draw() {//runs in a loop
